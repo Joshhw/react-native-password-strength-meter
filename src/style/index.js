@@ -1,7 +1,7 @@
 /* eslint import/no-unresolved: [2, { ignore: ['react-native'] }] */
-import { StyleSheet, Dimensions } from 'react-native';
+import { StyleSheet, Dimensions } from "react-native";
 
-export const { width } = Dimensions.get('window');
+export const { width } = Dimensions.get("window");
 
 export default StyleSheet.create({
   // Parent
@@ -11,7 +11,7 @@ export default StyleSheet.create({
   // Input
   inputWrapper: {
     borderBottomWidth: 0.3,
-    borderBottomColor: '#e6e6e6',
+    borderBottomColor: "#e6e6e6",
     paddingBottom: 5,
     marginVertical: 5,
     marginHorizontal: 10,
@@ -21,14 +21,14 @@ export default StyleSheet.create({
     fontSize: 16,
   },
   imageWrapper: {
-    position: 'absolute',
+    position: "absolute",
     right: 0,
     bottom: 5,
   },
   image: {
     height: 20,
-    resizeMode: 'contain',
-    tintColor: '#c0c0c0',
+    resizeMode: "contain",
+    tintColor: "#c0c0c0",
   },
   // Password Display Components
   wrapper: {
@@ -36,7 +36,7 @@ export default StyleSheet.create({
     marginHorizontal: 10,
   },
   label: {
-    position: 'absolute',
+    position: "absolute",
     right: 0,
     top: 8,
     fontSize: 12,
@@ -53,7 +53,7 @@ export default StyleSheet.create({
   },
   // Box Container
   boxContainerWrapper: {
-    flexDirection: 'row',
+    flexDirection: "row",
   },
   boxContainer: {
     marginHorizontal: 2,
